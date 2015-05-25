@@ -48,6 +48,8 @@ def setScale(scale):
 <button type="button" onclick="point_it('apply:pulse')">GEN PULSE</button>
 <button type="button" onclick="point_it('apply:RAMP')">GEN RAMP</button>
 <button type="button" onclick="point_it('apply:NOISE')">GEN NOISE</button>
+<button type="button" onclick="point_it('apply:SINusoid')">GEN SINusoid</button>
+<button type="button" onclick="point_it('apply:SQUare')">GEN SQUare</button>
 
 <h2>scales</h2>
 
