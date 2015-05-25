@@ -16,7 +16,7 @@ html.endHead(self)
 html.beginContent(self)
 %>
 
-"""
+<!--
     actScale = getScale()
     nextScale = ""
     backScale = ""
@@ -38,7 +38,7 @@ def setScale(scale):
     osci.main(":timebase:main:scale " + scale)
     return redirect()
 
-"""
+-->
 <button type="button" onclick="point_it('autoscale')">AutoScale</button>
 <button type="button" onclick="point_it('run')">RUN</button>
 <button type="button" onclick="point_it('stop')">STOP</button>
