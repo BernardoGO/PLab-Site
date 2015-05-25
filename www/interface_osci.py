@@ -42,9 +42,34 @@ def setScale(scale):
 <button type="button" onclick="point_it('autoscale')">AutoScale</button>
 <button type="button" onclick="point_it('run')">RUN</button>
 <button type="button" onclick="point_it('stop')">STOP</button>
+
+<h2>gerador de frequencia</h2>
+
 <button type="button" onclick="point_it('apply:pulse')">GEN PULSE</button>
 <button type="button" onclick="point_it('apply:RAMP')">GEN RAMP</button>
 <button type="button" onclick="point_it('apply:NOISE')">GEN NOISE</button>
+
+<h2>scales</h2>
+
+<button type="button" onclick="point_it(':timebase:main:scale 1.0e-2')">1.0e-2</button>
+<button type="button" onclick="point_it(':timebase:main:scale 1.0e-3')">1.0e-3</button>
+<button type="button" onclick="point_it(':timebase:main:scale 1.0e-4')">1.0e-4</button>
+<button type="button" onclick="point_it(':timebase:main:scale 1.0e-5')">1.0e-5</button>
+<button type="button" onclick="point_it(':timebase:main:scale 1.0e-6')">1.0e-6</button>
+<button type="button" onclick="point_it(':timebase:main:scale 1.0e-7')">1.0e-7</button>
+<button type="button" onclick="point_it(':timebase:main:scale 1.0e-8')">1.0e-8</button>
+<button type="button" onclick="point_it(':timebase:main:scale 1.0e-9')">1.0e-9</button>
+<button type="button" onclick="point_it(':timebase:main:scale 1.0e-10')">1.0e-10</button>
+<br>
+<button type="button" onclick="point_it(':timebase:main:scale 2.0e-2')">2.0e-2</button>
+<button type="button" onclick="point_it(':timebase:main:scale 2.0e-3')">2.0e-3</button>
+<button type="button" onclick="point_it(':timebase:main:scale 2.0e-4')">2.0e-4</button>
+<button type="button" onclick="point_it(':timebase:main:scale 2.0e-5')">2.0e-5</button>
+<button type="button" onclick="point_it(':timebase:main:scale 2.0e-6')">2.0e-6</button>
+<button type="button" onclick="point_it(':timebase:main:scale 2.0e-7')">2.0e-7</button>
+<button type="button" onclick="point_it(':timebase:main:scale 2.0e-8')">2.0e-8</button>
+<button type="button" onclick="point_it(':timebase:main:scale 2.0e-9')">2.0e-9</button>
+<button type="button" onclick="point_it(':timebase:main:scale 2.0e-10')">2.0e-10</button>
 <br>
 <button type="button" onclick="point_it(':timebase:main:scale 5.0e-2')">5.0e-2</button>
 <button type="button" onclick="point_it(':timebase:main:scale 5.0e-3')">5.0e-3</button>
@@ -55,6 +80,7 @@ def setScale(scale):
 <button type="button" onclick="point_it(':timebase:main:scale 5.0e-8')">5.0e-8</button>
 <button type="button" onclick="point_it(':timebase:main:scale 5.0e-9')">5.0e-9</button>
 <button type="button" onclick="point_it(':timebase:main:scale 5.0e-10')">5.0e-10</button>
+<br>
 
 
 
