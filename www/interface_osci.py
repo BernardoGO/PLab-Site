@@ -84,7 +84,23 @@ def setScale(scale):
 <button type="button" onclick="point_it(':timebase:main:scale 5.0e-10')">5.0e-10</button>
 <br>
 
-
+<h2>Channels</h2>
+Channel 1
+<button type="button" onclick="point_it(':CHANnel1:DISPlay OFF')">OFF</button>
+<button type="button" onclick="point_it(':CHANnel1:DISPlay ON')">ON</button>
+<br>
+Channel 2
+<button type="button" onclick="point_it(':CHANnel2:DISPlay OFF')">OFF</button>
+<button type="button" onclick="point_it(':CHANnel2:DISPlay ON')">ON</button>
+<br>
+Channel 3
+<button type="button" onclick="point_it(':CHANnel3:DISPlay OFF')">OFF</button>
+<button type="button" onclick="point_it(':CHANnel3:DISPlay ON')">ON</button>
+<br>
+Channel 4
+<button type="button" onclick="point_it(':CHANnel4:DISPlay OFF')">OFF</button>
+<button type="button" onclick="point_it(':CHANnel4:DISPlay ON')">ON</button>
+<br>
 
 <%
 html.endContent(self)
